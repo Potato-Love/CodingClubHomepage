@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+}
+html{
+        height: 100%;
+    }
+body{
+    height: 100%;
+}
+a{
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@font-face {
+    font-family: 'NEXON Lv1 Gothic OTF Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NEXON Lv1 Gothic OTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header{
+    height: 70px;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    background-color: hsla(0, 0%, 100%, 0.800);
+}
+#logo{
+    position: relative;
+    font-family: 'Poppins' !important;
+    font-weight: 700 !important;
+}
+header h1{
+    margin-top: 6px !important;
+    margin-left: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+}
+
+.menubtn{
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+    margin-top: 23px;
+}
+#menubtn {
+    display: none;
+    text-align: right;
+}
+
+#menubtn+label {
+    display: block;
+    width: 30px;
+    height: 20px;
+    position: relative;
+    cursor: pointer;
+    z-index: 4;
+}
+
+#menubtn+label span {
+    display: block;
+    position: absolute;
+    background: rgb(0, 0, 0);
+    width: 100%;
+    height: 3px;
+    border-radius: 20px;
+    transition: all .5s;
+}
+
+#menubtn+label span:nth-child(1) {
+    top: 0;
+}
+
+#menubtn+label span:nth-child(2) {
+    top: 50%;
+    margin-top: -2.5px;
+}
+
+#menubtn+label span:nth-child(3) {
+    bottom: 0;
+}
+
+#menubtn:checked+label span {
+    background-color: rgb(255, 255, 255);
+}
+
+#menubtn:checked+label span:nth-child(1) {
+    top: 50%;
+    transform: translateY(-50%) rotate(45deg);
+}
+
+#menubtn:checked+label span:nth-child(2) {
+    opacity: 0;
+}
+
+#menubtn:checked+label span:nth-child(3) {
+    bottom: 50%;
+    transform: translateY(50%) rotate(-45deg);
+}
+
+.menu{
+    height: 100%;
+    width: 100%;
+    top: -100%;
+    left: 0%;
+    transition: all .5s;
+    position: fixed;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.800);
+    backdrop-filter: blur(20px);
+}
+.menuList{
+    text-align: center;
+    margin-top: 7%;
+}
+.menuList span{
+    display: block;
+    padding: 10px;
+}
+#selectedMenu{
+    font-weight: 700;
+}
+.menuList span a{
+    color: white;
+    font-size: 50px;
+    font-weight: 200;
+    font-family: 'Poppins';
+    transition-duration: .3s;
+}
+.menuList span a:hover{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#menubtn:checked+#mb+.menu{
+    top: 0%;
+}
+
+.log{
+    color: white;
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 30px;
+    transition-duration: .3s;
+}
+.log:hover{
+    color: rgba(255, 255, 255, 0.5);
+}

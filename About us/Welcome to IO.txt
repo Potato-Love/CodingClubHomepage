@@ -1,0 +1,30 @@
+print("Welcome to IO")
+
+<?php
+echo "Welcome to IO"
+?>
+
+#include <stdio.h>
+int main(){
+    printf("Welcome to IO")
+    return 0;
+}
+
+document.write("Welcome to IO")
+
+alert("Welcome to IO")
+
+console.log("Welcome to IO")
+
+<h1>   Welcome to IO</h1>
+
+01010111011001010110110001100011011011110110110
+101100101001000000111010001101111001000000100100101001111
+
+삭발반따산발밭발따따사밣삭빠싸사따밝다맣산빠싸사
+밪반타다맣산빠싸사밣다맣사밟삭빠싸사따밢다맣산빠
+싸사삭빠싸사다밪반타다맣산빠싸사밢다맣산빠싸사밪
+반타다맣사받삭빠싸사따반다맣산빠싸사삭빠싸사다밦
+다맣산빠싸사삭빠싸사다반밧나다맣사밪삭빠싸사따반
+다맣사밝삭빠싸사따밬다맣사밝삭빠싸사따밟다맣하아
+앙키위커여워

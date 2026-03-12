@@ -1,0 +1,53 @@
+#contentsArea{
+    overflow: auto;
+}
+
+#imageArea{
+    margin-top: 70px;
+    float: right;
+    width: 60%;
+    height: 100%;
+    background-image: url('/images/loginImg.png');
+    background-size: cover;
+}
+#loginArea{
+    margin-top: 70px;
+    text-align: center;
+    width: 30%;
+    float: right;
+    height: 100%;
+    margin-left: 100px;
+}
+#loginArea h1{
+    font-family: 'NEXON Lv1 Gothic OTF Bold';
+    padding: 100px;
+    font-size: 65px;
+}
+.textArea{
+    height: 50px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+#pwd{
+    margin-top: 30px;
+}
+button{
+    margin-top: 30px;
+    height: 50px;
+    width: 90px;
+    background-color: black;
+    color: white;
+    font-family: 'NEXON Lv1 Gothic OTF';
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    transition-duration: .3s;
+}
+button:hover{
+    background-color: rgb(75, 75, 75);
+}
+
+body{
+    overflow: hidden;
+}

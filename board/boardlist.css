@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'NEXON Lv1 Gothic OTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+a{
+    cursor: hand;
+}
+#frame{
+    overflow: auto;
+    width: 100%;
+}
+#banner{
+    margin-top: 70px;
+    height: 200px;
+    background-image: url('/ver04/images/board banner.png');
+    background-position: left center;
+}
+#container{
+    overflow: auto;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1000px;
+}
+#writeBtn{
+    margin-top: 70px;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    color: white;
+    font-size: 16px;
+    font-family: NEXON Lv1 Gothic OTF;
+    transition-duration: .3s;
+}
+#writeBtn:hover{
+    background-color: rgb(75, 75, 75);
+}
+#container table{
+    height: 100%;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 17px;
+    font-family: NEXON Lv1 Gothic OTF;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+table thead tr {
+    background-color: #2d6ce0;
+    color: #ffffff;
+}
+table th,
+table td {
+    padding: 12px 15px;
+}
+table tbody tr td a{
+    color: black;
+}
+table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+table tbody tr:last-of-type {
+    border-bottom: 2px solid #2d6ce0;
+}

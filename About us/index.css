@@ -1,0 +1,48 @@
+
+
+#container1{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-image: url('/ver04/images/About us.png');
+    background-attachment: fixed;
+    background-position: center center;
+    text-align: center;
+}
+
+
+#container2{
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: black;
+}
+#container2 h1{
+    margin-top: 100px;
+    padding: 70px;
+    color: white;
+    text-align: center;
+    font-family: 'NEXON Lv1 Gothic OTF Bold';
+    font-size: 50px;
+}
+br{
+    height: 20px;
+}
+#container2 h3{
+    color: white;
+    font-family: 'NEXON Lv1 Gothic OTF';
+    text-align: center;
+}
+#container3{
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgb(255, 255, 255);
+}
+#container3 h1{
+    padding: 70px;
+    margin-top: 50px;
+    color: rgb(0, 0, 0);
+    font-family: 'NEXON Lv1 Gothic OTF Bold';
+    font-size: 50px;
+}
