@@ -39,6 +39,7 @@ button{
     font-size: 16px;
     font-family: NEXON Lv1 Gothic OTF;
     transition-duration: .3s;
+    margin-bottom: 50px;
 }
 button:hover{
     background-color: rgba(0, 0, 0, 0.500);
